@@ -1,1 +1,14 @@
-/*Vacio por ahora*/
+/* src/index.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
