@@ -6,12 +6,26 @@
 }
 
 body {
-  background-color: var(--cb-color-surface-bg);
-  /** add temporary width and height to see the theming. Remove after testing **/
+  font-family: Arial, sans-serif;
   width: 100vw;
   height: 100vh;
+  background-color: var(--cb-color-surface-bg);
+  color: var(--cb-color-text-primary);
 }
 
 ul {
   list-style: none;
+} 
+
+
+h1 {
+  color: var(--cb-color-text-primary);
+  }
+  
+@media (prefers-color-scheme: dark) {
+h1 {
+  color: var(--cb-color-text-primary);
+  }
+
+
 }
