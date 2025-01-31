@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "caba-icons"; 
+  font-family: "caba-icons";
   src:url("fonts/caba-icons.eot");
   src:url("fonts/caba-icons.eot?#iefix") format("embedded-opentype"),
     url("fonts/caba-icons.woff") format("woff"),
@@ -13,7 +13,7 @@
 }
 
 [data-icon]:before {
-  font-family: "caba-icons" !important;
+  font-family: "caba-icons", sans-serif !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -25,9 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="cb-icon-"]:before,
-[class*=" cb-icon-"]:before {
-  font-family: "caba-icons" !important;
+[class^="cb-icons-"]:before,
+[class*=" cb-icons-"]:before {
+  font-family: "caba-icons", sans-serif !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -38,15 +38,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cb-icon-close:before {
+.cb-icons-checkmark-circle:before {
   content: "\61";
 }
-.cb-icon-checkmark-circle:before {
+.cb-icons-close:before {
   content: "\62";
 }
-.cb-icon-search:before {
+.cb-icons-search:before {
   content: "\63";
 }
-.cb-icon-share-social:before {
+.cb-icons-share-social:before {
   content: "\64";
 }
