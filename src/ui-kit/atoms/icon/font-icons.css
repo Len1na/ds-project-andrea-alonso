@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "caba-icons";
+  font-family: "caba-icons"; 
   src:url("fonts/caba-icons.eot");
   src:url("fonts/caba-icons.eot?#iefix") format("embedded-opentype"),
     url("fonts/caba-icons.woff") format("woff"),
