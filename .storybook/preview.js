@@ -1,4 +1,8 @@
 /** @type { import('@storybook/react').Preview } */
+import "../src/ui-kit/tokens/primitives.css";
+import "../src/ui-kit/tokens/my-company-brand.css";
+import "../src/index.css";
+
 const preview = {
   parameters: {
     controls: {
